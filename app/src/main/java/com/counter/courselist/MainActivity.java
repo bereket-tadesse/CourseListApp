@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             public boolean onItemLongClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Context context = getApplicationContext();
                 Toast.makeText( context, "Item Removed", Toast.LENGTH_LONG).show();
-
+                //
                 items.remove(i);
                 itemsAdapter.notifyDataSetChanged();
                 return true;
