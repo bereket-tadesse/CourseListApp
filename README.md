@@ -1,1 +1,1 @@
-# CourseListApp.
+# CourseListApp
